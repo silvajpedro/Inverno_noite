@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header {
+  display: flex;
+  background-color: #4b93bf;
+  justify-content: space-between;
+  color: #ffffff;
+}
+header figure {
+  display: flex;
+  align-items: center;
+  width: 26vw;
+}
+header nav {
+  width: 40vw;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 14vh;
+  font-size: 24px;
+}
+.primeiraSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e4eef1;
+}
+.primeiraSessaoDaMain p {
+  color: #0f468c;
+  width: 34vw;
+  font-size: 20px;
+}
+.segundaSessaoDaMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4b93bf;
+}
+h2 {
+  width: 32vw;
+  color: #e4eef1;
+}
+.terceiraSessaoDaMain {
+  background-color: #e4eef1;
+}
+.terceiraSessaoDaMain figure {
+  display: flex;
+  justify-content: space-evenly;
+}
+.terceiraSessaoDaMain img {
+  width: 22vw;
+  height: 44vh;
+}
+.cansado {
+  position: relative;
+  top: 1.4vh;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4b93bf;
+}
+div {
+  text-align: center;
+}
+footer nav {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  width: 300px;
+}
+footer img {
+}
